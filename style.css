@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #1f2937;
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  
+}
+
+.menu {
+  display: flex;
+  width: 1200px;
+  
+}
+
+.links {
+  flex:1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
+  margin-right: 48px;
+}
+
+.content-container {
+  color: #fff;
+  background-color: #1f2937;
+  /* Blue */
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  gap: 72px;
+  
+}
+
+.main-text {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  gap: 16px;
+}
+
+button {
+  width: 100px;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px;
+}
+
+.box-container img {
+  width: 300px;
+  height: 220px;
+  border-radius: 30px;
+}
+
+.box-heading {
+  color: black;
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+}
+
+.box-text-box {
+  display: flex;
+  justify-content: center;
+}
+
+.box-text {
+  display: flex;
+  width: 1300px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.quote-container {
+  background: rgb(70, 66, 66);
+  color: rgb(255, 255, 255);
+  display: flex;
+  padding: 160px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quote {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.signature {
+  display: flex;
+  font-weight: 900;
+  justify-content: flex-end;
+  font-size: 28px;
+  margin-right: 75px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  padding: 72px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.signup-box {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-box {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  border: 1px solid royalblue;
+  background: royalblue;
+  border-radius: 16px;
+  padding: 48px;
+  color: white;
+  flex-direction: row;
+  font-size: 18px;
+}
+
+.footer-box button {
+  border: 1px solid white;
+  width: 200px;
+  background: royalblue;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.button-box {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  background: rgb(70, 66, 66);
+  color: rgb(176, 208, 218);
+}
